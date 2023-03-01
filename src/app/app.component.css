@@ -1,0 +1,18 @@
+input.demo {
+  border: 2px solid rgb(250, 223, 68);
+  border-radius: 3px;
+  width: 150px;
+  height: 30px;
+  font-size: 25px;
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.logoDuck{
+  width: 50px;
+}

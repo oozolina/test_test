@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ang_uni_course_app';
+  data = {
+    title: "hello-hello"
+  };
+
+  onLogoClicked(){
+    alert("Hallo-Hallo!")
+  }
+
+  onKeyUp(newTtile: string){
+    this.data.title = newTtile;
+  }
+
+  //title = 'test for ang_uni_course_app';
 }
